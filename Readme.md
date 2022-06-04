@@ -2,11 +2,16 @@
 
 ### Running task create.js:
 
-```bash
+```
 node src/fs/create.js
 ```
 ### Running task copy.js:
 
-```bash
+```
 node src/fs/copy.js
+```
+### Running task rename.js:
+
+```
+node src/fs/rename.js
 ```

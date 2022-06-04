@@ -9,17 +9,22 @@ const pathToDir = path.join(__dirname, "files");
 
 export const create = async () => {
   fs.readdir(pathToDir, (err, files) => {
-    if (err) throw err;
-    files.forEach((file) => {
-      if (file === "fresh.txt") {
-        console.error(`FS operation failed`);
-      }
-    });
-  });
-
-  fs.writeFile(path.join(pathToDir, "fresh.txt"), text, (err) => {
     if (err) {
       throw err;
+    }
+
+    try {
+      if (files.includes("fresh.txt")) {
+        throw new Error();
+      } else {
+        fs.writeFile(path.join(pathToDir, "fresh.txt"), text, (err) => {
+          if (err) {
+            throw err;
+          }
+        });
+      }
+    } catch (err) {
+      console.error(`FS operation failed`);
     }
   });
 };

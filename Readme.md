@@ -38,11 +38,12 @@ node src/fs/read.js
 
 ### Running task env.js:
 
-```
 for Bash:
+```
 RSS_name1=value1 RSS_name2=value2 node src/cli/env
-
+```
 for Powershell:
+```
 $env:RSS_name1="value1"; $env:RSS_name2="value2"; node src/cli/env
 ```
 
@@ -56,7 +57,9 @@ node src/cli/args --propName value --prop2Name value2
 
 ```
 node src/modules/cjsToEsm.mjs
+```
 or
+```
 node src/modules/index.js
 ```
 
@@ -66,4 +69,10 @@ node src/modules/index.js
 
 ```
 node src/hash/calcHash.js
+```
+
+### Running task read.js:
+
+```
+node src/streams/read.js
 ```

@@ -76,3 +76,8 @@ node src/hash/calcHash.js
 ```
 node src/streams/read.js
 ```
+### Running task write.js:
+
+```
+node src/streams/write.js
+```

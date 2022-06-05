@@ -1,3 +1,9 @@
+const args = process.argv;
+
 export const parseArgs = () => {
-    // Write your code here 
+  for (let i = 2; i < args.length; i += 2) {
+    console.log(`${args[i].slice(2)} is ${args[i+1]}`);
+  }
 };
+
+parseArgs();

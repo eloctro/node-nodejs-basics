@@ -15,3 +15,8 @@ node src/fs/copy.js
 ```
 node src/fs/rename.js
 ```
+### Running task delete.js:
+
+```
+node src/fs/delete.js
+```

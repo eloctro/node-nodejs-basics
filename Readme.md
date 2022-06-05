@@ -20,3 +20,8 @@ node src/fs/rename.js
 ```
 node src/fs/delete.js
 ```
+### Running task list.js:
+
+```
+node src/fs/list.js
+```

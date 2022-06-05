@@ -1,3 +1,11 @@
+const envs = process.env
+
 export const parseEnv = () => {
-    // Write your code here 
+    for (let key in envs) {
+      if (key.slice(0, 4) === 'RSS_')
+      console.log(`${key}=${envs[key]}`);
+    }
+    
 };
+
+parseEnv()

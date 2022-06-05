@@ -45,3 +45,8 @@ RSS_name1=value1 RSS_name2=value2 node src/cli/env
 for Powershell:
 $env:RSS_name1="value1"; $env:RSS_name2="value2"; node src/cli/env
 ```
+### Running task args.js:
+
+```
+node src/cli/args --propName value --prop2Name value2
+```

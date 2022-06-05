@@ -1,5 +1,7 @@
 # Node.js basics
 
+## Запускать скрипты из папки node-nodejs-basics
+
 ### Running task create.js:
 
 ```
@@ -80,4 +82,9 @@ node src/streams/read.js
 
 ```
 node src/streams/write.js
+```
+### Running task transform.js:
+
+```
+node src/streams/transform.js
 ```

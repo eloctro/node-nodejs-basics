@@ -25,3 +25,8 @@ node src/fs/delete.js
 ```
 node src/fs/list.js
 ```
+### Running task read.js:
+
+```
+node src/fs/read.js
+```
